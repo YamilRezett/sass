@@ -1,0 +1,76 @@
+.speaker-form-header {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    }
+
+.speaker-form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+.speaker-form {
+    border-radius: 3px;
+    width: 40%;
+    margin: 0 0 40px 0;
+    padding: 50px;
+    }
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: rgb(255, 253, 253);
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    }
+
+.form-row label {
+    margin-bottom: 15px;
+    }
+
+.form-row textarea {
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 7px;
+    min-height: 200px;
+    min-width: 100%;
+    resize: none;
+    }
+
+.form-row .instructions {
+    color: rgb(10, 10, 10);
+    margin-bottom: 30px;
+    font-size: 14px;
+    }
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #b5c5d6;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    }
+/*para que cambie de color cuando pasa por arriba dela barra*/
+ .form-row button:hover {
+     background-color: #a3b2c6;
+    }
+
+ /*para cuando clickeas sobre la barra cambie de color*/
+ .form-row button:active {
+     background-color: rgb(60, 60, 95);
+    }
