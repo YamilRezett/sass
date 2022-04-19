@@ -1,0 +1,27 @@
+.parent {
+	display: grid;
+	grid-template-columns:400px 50px ;
+	grid-template-rows: 20% 25% ;
+	grid-template-areas: 
+	"div1 div1 div1 div1"
+	"div2 div2 div3 div3"
+	"div4 div4 div4 div4";
+	}
+
+.div1{
+	grid-area: div1;
+	
+}
+
+.div2{
+	grid-area: div2;
+	
+}
+
+.div3{
+	grid-area: div3;
+}
+
+.div4{
+	grid-area: div4;
+}
